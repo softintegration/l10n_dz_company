@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_dz_company
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-26 12:19+0000\n"
+"PO-Revision-Date: 2022-11-26 12:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_ai
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_ai
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_ai
+msgid "AI"
+msgstr "AI"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__code
+msgid "Code"
+msgstr "Code"
+
+#. module: l10n_dz_company
+#: model:ir.model,name:l10n_dz_company.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: l10n_dz_company
+#: model:ir.model,name:l10n_dz_company.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__description
+msgid "Description"
+msgstr "Description"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_ident_issue_date
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_ident_issue_date
+msgid "ID card issue date"
+msgstr "Date de délivrance Pièce d'Identité"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_ident_number
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_ident_number
+msgid "ID number"
+msgstr "N° Pièce d'Identité"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_if
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_if
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_if
+msgid "IF"
+msgstr "IF"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_legal_status_id
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_legal_status_id
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_legal_status_id
+msgid "Legal status"
+msgstr "Forme juridique"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_nis
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_nis
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_nis
+msgid "NIS"
+msgstr "NIS"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company_legal_status__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_rc
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_rc
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_rc
+msgid "RC"
+msgstr "RC"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_rc_issue_date
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_partner__accounting_rc_issue_date
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_users__accounting_rc_issue_date
+msgid "RC issue date"
+msgstr "Date de délivrance RC"
+
+#. module: l10n_dz_company
+#: model:ir.model.fields,field_description:l10n_dz_company.field_res_company__accounting_share_capital
+msgid "Share capital"
+msgstr "Capital social"
+
+#. module: l10n_dz_company
+#: model:ir.model,name:l10n_dz_company.model_res_company_legal_status
+msgid "res.company.legal.status"
+msgstr ""

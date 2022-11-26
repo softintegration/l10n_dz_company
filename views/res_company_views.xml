@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?><odoo>
+  <data>
+    <record id="view_company_form_inherited" model="ir.ui.view">
+      <field name="name">view_company_form_inherited</field>
+      <field name="model">res.company</field>
+      <field name="inherit_id" ref="base.view_company_form"/>
+      <field name="arch" type="xml">
+        <field name="company_registry" position="after">
+          <field name="accounting_ai"/>
+          <field name="accounting_rc"/>
+          <field name="accounting_rc_issue_date"/>
+          <field name="accounting_nis"/>
+          <field name="accounting_if"/>
+          <field name="accounting_legal_status_id" options="{'no_create':True,'no_edit':True}"/>
+          <field name="accounting_share_capital"/>
+        </field>
+      </field>
+    </record>
+  </data>
+</odoo>

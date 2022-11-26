@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+		<record id="res_company_legal_status_01" model="res.company.legal.status">
+			<field name="code">01</field>
+			<field name="name">Personne physique</field>
+			<field name="description">Personne physique</field>
+		</record>
+		<record id="res_company_legal_status_02" model="res.company.legal.status">
+			<field name="code">02</field>
+			<field name="name">E.U.R.L</field>
+			<field name="description">Entreprise Unipersonnelle à Responsabilité limitée</field>
+		</record>
+		<record id="res_company_legal_status_03" model="res.company.legal.status">
+			<field name="code">03</field>
+			<field name="name">S.A.R.L</field>
+			<field name="description">Société à Responsabilité limitée</field>
+		</record>
+		<record id="res_company_legal_status_04" model="res.company.legal.status">
+			<field name="code">04</field>
+			<field name="name">S.P.A</field>
+			<field name="description">Société Par Action</field>
+		</record>
+		<record id="res_company_legal_status_05" model="res.company.legal.status">
+			<field name="code">05</field>
+			<field name="name">S.P.A.S</field>
+			<field name="description">Société Par Actions Simplfiée</field>
+		</record>
+		<record id="res_company_legal_status_06" model="res.company.legal.status">
+			<field name="code">06</field>
+			<field name="name">S.N.C</field>
+			<field name="description">Société en Nom Collectif</field>
+		</record>
+		<record id="res_company_legal_status_07" model="res.company.legal.status">
+			<field name="code">07</field>
+			<field name="name">Groupement</field>
+			<field name="description">Groupement</field>
+		</record>
+		<record id="res_company_legal_status_08" model="res.company.legal.status">
+			<field name="code">08</field>
+			<field name="name">Société en commandite simple</field>
+			<field name="description">Société en commandite simple</field>
+		</record>
+		<record id="res_company_legal_status_09" model="res.company.legal.status">
+			<field name="code">09</field>
+			<field name="name">Société en commandite par action</field>
+			<field name="description">Société en commandite par action</field>
+		</record>
+		<record id="res_company_legal_status_10" model="res.company.legal.status">
+			<field name="code">10</field>
+			<field name="name">Société en participation</field>
+			<field name="description">Société en participation</field>
+		</record>
+    </data>
+</odoo>
