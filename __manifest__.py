@@ -10,7 +10,7 @@
     'qweb': [],
     'description': False,
     'images': [],
-    'version': '1.0.1.1',
+    'version': '1.0.1.2',
     'category': 'Base',
     'demo': [],
     'depends': ['contacts'],
@@ -18,6 +18,7 @@
              'security/ir.model.access.csv',
              'views/res_partner_views.xml',
              'views/res_company_views.xml',
+             'views/report_invoice.xml'
              ],
     'license': 'LGPL-3',
 }

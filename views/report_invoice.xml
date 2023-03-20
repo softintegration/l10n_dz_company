@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template inherit_id="account.report_invoice_document" id="report_invoice_document_inherited">
+            <xpath expr="//div[@t-if='o.partner_id.vat']" position="before">
+                <t>
+                    <b>RC : </b><span t-field="o.partner_id.accounting_rc"/>
+                    <b>AI : </b><span t-field="o.partner_id.accounting_ai"/>
+                    <b>NIF : </b><span t-field="o.partner_id.accounting_if"/>
+                    <b>NIS : </b><span t-field="o.partner_id.accounting_nis"/>
+                </t>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>
