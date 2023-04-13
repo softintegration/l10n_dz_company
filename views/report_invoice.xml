@@ -4,11 +4,11 @@
         <template inherit_id="account.report_invoice_document" id="report_invoice_document_inherited">
             <xpath expr="//div[@t-if='o.partner_id.vat']" position="before">
                 <div style="font-size:13px !important;">
-                    <b>RC : </b><span t-field="o.partner_id.accounting_rc"/>
-                    <b>AI : </b><span t-field="o.partner_id.accounting_ai"/>
+                    <t t-if="o.partner_id.accounting_rc"><b>RC : </b><span t-field="o.partner_id.accounting_rc"/></t>
+                    <t t-if="o.partner_id.accounting_ai"><b>AI : </b><span t-field="o.partner_id.accounting_ai"/></t>
                     <br/>
-                    <b>NIF : </b><span t-field="o.partner_id.accounting_if"/>
-                    <b>NIS : </b><span t-field="o.partner_id.accounting_nis"/>
+                    <t t-if="o.partner_id.accounting_if"><b>NIF : </b><span t-field="o.partner_id.accounting_if"/></t>
+                    <t t-if="o.partner_id.accounting_nis"><b>NIS : </b><span t-field="o.partner_id.accounting_nis"/></t>
                 </div>
             </xpath>
         </template>
